@@ -47,7 +47,7 @@ def create_wordcloud(selected_user, df):
 
 def most_common_words(selected_user, df):
 
-    f = open(r"C:\Users\F2076TU\Deep Projects\Whatsapp Chat Analyzer\stop_hinglish.txt", "r")
+    f = open(r"stop_hinglish.txt", "r")
     stop_words = f.read()
     
     if selected_user != 'Overall':
