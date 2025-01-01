@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns # type: ignore
 
 st.sidebar.title("Whatsapp Chat Analyzer")
+st.title("Welcome to Whatsapp Chat Analyzer")
+st.write("Click on sidebar icon at the upper left corner to upload whatsapp chat file and click on Show Analysis button")
 
 uploaded_file = st.sidebar.file_uploader('Choose a file')
 if uploaded_file is not None:
